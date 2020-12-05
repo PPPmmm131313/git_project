@@ -1,6 +1,6 @@
 # Выгодные курсы обмена валюты в Санкт-Петербурге
 
-## V 1.0 
+## V 1.0 Application
 App-converter
 
 ### Getting started
