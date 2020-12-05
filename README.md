@@ -23,6 +23,8 @@ Then, if you want to know where to exchange currency press the coin image
 
 ### Running
 
+Run converter.py
+
 example:
 
 it should be a video (later)
@@ -46,6 +48,8 @@ pip install bs4
 pip install ipywidgets
 ```
 ### Running
+
+Run parsing.ipyng
 
 example:
 
