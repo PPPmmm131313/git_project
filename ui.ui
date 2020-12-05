@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>478</width>
+    <height>761</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">background-color: #22222e</string>
+   </property>
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>480</width>
+      <height>321</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #EDDACC</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>10</y>
+       <width>351</width>
+       <height>121</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Mistral</family>
+       <pointsize>72</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: #90816A</string>
+     </property>
+     <property name="text">
+      <string>converter</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>130</y>
+       <width>181</width>
+       <height>181</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>python.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_open">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>140</y>
+       <width>181</width>
+       <height>161</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton:pressed {
+	background-color:transparent
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="autoDefault">
+      <bool>false</bool>
+     </property>
+     <property name="default">
+      <bool>false</bool>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QLineEdit" name="input_amount">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>420</y>
+      <width>380</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: #EDDACC;
+border: 2px solid #EDDACC;
+border-radius: 30px;
+color: #90816A
+</string>
+    </property>
+    <property name="text">
+     <string>1</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="outpuy_amount">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>580</y>
+      <width>380</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: #EDDACC;
+border: 2px solid #EDDACC;
+border-radius: 30px;
+color: #90816A
+</string>
+    </property>
+    <property name="text">
+     <string>1</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>670</y>
+      <width>380</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Mistral</family>
+      <pointsize>16</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="contextMenuPolicy">
+     <enum>Qt::PreventContextMenu</enum>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	color: #90816A ;
+	background-color: #EDDACC ;
+	border-radius: 30;
+}
+
+QPushButton:pressed {
+	background-color:#D69E8F
+}</string>
+    </property>
+    <property name="text">
+     <string>CONVERT</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>340</y>
+      <width>380</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: #EDDACC;
+border: 2px solid #EDDACC;
+border-radius: 30px;
+color: #90816A
+</string>
+    </property>
+    <property name="inputMethodHints">
+     <set>Qt::ImhNone</set>
+    </property>
+    <property name="editable">
+     <bool>false</bool>
+    </property>
+    <property name="insertPolicy">
+     <enum>QComboBox::InsertAtBottom</enum>
+    </property>
+    <item>
+     <property name="text">
+      <string>USD</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>EUR</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>RUB</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="comboBox_2">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>500</y>
+      <width>380</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: #EDDACC;
+border: 2px solid #EDDACC;
+border-radius: 30px;
+color: #90816A
+</string>
+    </property>
+    <property name="inputMethodHints">
+     <set>Qt::ImhNone</set>
+    </property>
+    <property name="editable">
+     <bool>false</bool>
+    </property>
+    <property name="insertPolicy">
+     <enum>QComboBox::InsertAtBottom</enum>
+    </property>
+    <item>
+     <property name="text">
+      <string>USD</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>EUR</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>RUB</string>
+     </property>
+    </item>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
