@@ -21,6 +21,8 @@ Choose USD/EUR/RUB and amount to convert into USD/EUR/RUB
 
 Then, if you want to know where to exchange currency press the coin image
 
+### Running
+
 example:
 
 it should be a video (later)
