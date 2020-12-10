@@ -27,7 +27,7 @@ Run converter.py
 
 example:
 
-it should be a video (later)
+![vid2](./docs/video_2.gif)
 
 
 
